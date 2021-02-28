@@ -1,0 +1,49 @@
+
+html {
+  background: url(img/bkg-img.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+  font-size: 22px;
+}
+.container{
+  width: 400px;
+}
+
+.header{
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-family: serif;
+  opacity: 0.8;
+}
+
+ul {
+  list-style: none;
+}
+
+li{
+  background-color: white;
+}
+
+.arrow {
+  cursor: pointer;
+  user-select: :none;
+}
+
+.arrow::before {
+  content: "\25b6";
+  color: gray;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
